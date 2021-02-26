@@ -7,7 +7,7 @@ int main()
 	float r,h;
 	cin>>r>>h;
 	float v;
-	v=3.1416*r*r*h;
+	v=3.1416*r*r*h;//vloume
 	cout<<v;
 	return 0;
 }
