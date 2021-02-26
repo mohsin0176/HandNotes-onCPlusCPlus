@@ -32,7 +32,7 @@ using namespace std;
 	{
 		cout<<feet<<inches;
 	}
-	void Distance ::addDist(Distance dd1,Distance dd2)
+	void Distance ::addDist(Distance dd1,Distance dd2) //pass class
 	{
 
 		feet=dd1.feet+dd2.feet;
