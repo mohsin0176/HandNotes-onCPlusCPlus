@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
      typedef int integer;
-typedef float real;
+     typedef float real;
     integer a=10;
     real b=10.23;
     cout<<a<<endl;
