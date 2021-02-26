@@ -4,5 +4,6 @@ using namespace std;
 
 int main()
 {
+	cout<<"C++ Learning"<<endl;
 	return 0;
 }
