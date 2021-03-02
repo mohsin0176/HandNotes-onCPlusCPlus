@@ -20,7 +20,7 @@ public:
 		width=a;
 		height=b;
 	}
-	void area()
+	virtual void area()
 	{
 		cout<<0;
 	}
