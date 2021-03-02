@@ -38,7 +38,7 @@ class Triangle:public Shape
 {
 public:
 	Triangle(float a=0,float b=0.0):Shape(a,b){}
-	void area(){ cout<<((width*height)/2);}
+	virtual void area()=0; 
 };
 
 
