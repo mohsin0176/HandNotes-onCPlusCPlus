@@ -10,8 +10,8 @@
 using namespace std;
 
 
-#define USA 1
-#define IND 1
+//#define USA 1
+//#define IND 1
 
 #if(!defined(USA)||!defined(IND))
 #error ERROR:NO_CURRENCY rate is specified
