@@ -15,5 +15,6 @@ int main()
     char ch;
     cin.get(ch);
     cout.put(ch);
+    cout<<endl;
 	return 0;
 }
