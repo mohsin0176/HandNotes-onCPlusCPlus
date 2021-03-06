@@ -12,9 +12,16 @@ using namespace std;
 
 int main()
 {
-    int w,x,y,z,p;
-    cin>>w>>x>>y>>z;
-    p=(w+x)/(y-z);
-    cout<<p;
-	return 0;
+   int d,y,m,w;
+   cin>>d;
+   y=d/365;
+   d=d%365;
+   m=d/30;
+   d=d%30;
+   w=d/7;
+   d=d%7;
+   cout<<y;
+   cout<<m;
+   cout<<d;
+   return 0;
 }
