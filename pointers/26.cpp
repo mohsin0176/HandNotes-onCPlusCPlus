@@ -9,47 +9,41 @@
 #define PI 3.1416
 using namespace std;
 
-class Shape
+
+class Distance
 {
-protected:
-	float width,height;
+
+private:
+	int feet;
+	float inches;
 public:
-	Shape(float a=0,float b=0)
+	void getDsist()
 	{
-		width=a;
-		height=b;
+		cin>>feet>>inches;
 	}
-	void area()
+	void showDist()
 	{
-		cout<<0;
+		cout<<feet<<inches;
 	}
-};
-class Rectangle:public Shape
-{
-Rectangle(float a=0,float b=0):Shape(a,b){};
-void area()
-{
-	cout<<width*height;
-}
-};
-class Triangle:public Shape
-{
-Triangle(float a=0,float b=0):Shape(a,b){};
-void area()
-{
-	cout<<width*height;
-}
+
 };
 int main()
-{   
-	Shape *shape;
-	Rectangle rec(10,7);
-	Triangle tri(10,5);
-	shape=&rec;
-	shape->area();
-	shape=&tri;
-	shape->area();
-
-
+{
+    int i,n=0;
+    char ch;
+    Distance *p[100];
+    do
+    {
+    	p[n]=new Distance;
+    	p[n]->getDsist();
+    	n++;
+    	cin>>ch;
+    }
+    while
+    	(ch=='Y'||ch=='y');
+    for (int i = 0; i < n; ++i)
+    {
+    	p[i]->showDist();
+    }
 	return 0;
 }

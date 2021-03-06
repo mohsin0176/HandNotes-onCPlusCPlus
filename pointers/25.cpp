@@ -29,21 +29,9 @@ public:
 };
 int main()
 {
-    int i,n=0;
-    char ch;
-    Distance *p[100];
-    do
-    {
-    	p[n]=new Distance;
-    	p[n]->getDsist();
-    	n++;
-    	cin>>ch;
-    }
-    while
-    	(ch=='Y'||ch=='y');
-    for (int i = 0; i < n; ++i)
-    {
-    	p[i]->showDist();
-    }
+    Distance *p;
+    p=new Distance;
+    p->getDsist();
+    p->showDist();
 	return 0;
 }
