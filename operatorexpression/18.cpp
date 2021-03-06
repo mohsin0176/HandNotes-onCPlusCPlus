@@ -11,11 +11,11 @@ using namespace std;
 
 
 int main()
-{
-    int a=23,b=456;
-    float c=46.65;
-    long d=24546,e;
-    e=(((long(a)+long(c))*d)+long(b));
+{  
+    int a=10,b=20;
+    float c=10.50;
+    long d=20L,e;
+    e=((a+c)*d)+b;
     cout<<e;
 	return 0;
 }
