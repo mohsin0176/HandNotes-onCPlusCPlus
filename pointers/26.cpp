@@ -40,6 +40,8 @@ int main()
     	cin>>ch;
     }
     while(ch=='Y'||ch=='y');
+    
+
     for (int i = 0; i < n; ++i)
     {
     	p[i]->showDist();
