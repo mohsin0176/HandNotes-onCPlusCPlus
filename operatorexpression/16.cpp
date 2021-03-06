@@ -12,8 +12,14 @@ using namespace std;
 
 int main()
 {
-    int intv=20000;
-    intv=(long(intv)*10)/20;
-    cout<<intv;
+    float result;
+    result=1.0+2.0*3.0/4.0;
+    cout<<result;
+    result=1.0/2.0+3.0;
+    cout<<result;
+    result=(1.0+2.0)/3.0;
+    cout<<result;
+    result=(1.0+2.0/3.0)+4.0;
+    cout<<result;
 	return 0;
 }
