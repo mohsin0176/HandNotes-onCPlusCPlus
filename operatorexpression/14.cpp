@@ -12,9 +12,9 @@ using namespace std;
 
 int main()
 {
-    int a,b,max;
-    cin>>a>>b;
-    max=(a>b)?a:b;
-    cout<<max;
+    int w,x,y,z,p;
+    cin>>w>>x>>y>>z;
+    p=(w+x)/(y-z);
+    cout<<p;
 	return 0;
 }
