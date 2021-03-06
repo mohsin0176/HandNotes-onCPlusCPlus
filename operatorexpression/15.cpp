@@ -12,14 +12,9 @@ using namespace std;
 
 int main()
 {
-    float result;
-    result=1.0+2.0*3.0/4.0;
-    cout<<result;
-    result=1.0/2.0+3.0;
-    cout<<result;
-    result=(1.0+2.0)/3.0;
-    cout<<result;
-    result=(1.0+2.0/3.0)+4.0;
-    cout<<result;
-	return 0;
+    int a,b,max;
+    cin>>a>>b;
+    max=(a>b)?a:b;
+    cout<<max;
+    return 0;
 }
