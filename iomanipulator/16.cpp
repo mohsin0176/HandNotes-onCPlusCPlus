@@ -12,9 +12,9 @@ using namespace std;
 
 int main()
 {   
-    cout.setf(ios::showpos);
-    cout.setf(ios::showpoint);
-    cout.setf(ios::scientific);
+    cout.setiosflags(ios::showpos);
+    cout.setiosflags(ios::showpoint);
+    cout.setiosflags(ios::scientific);
     cout.setprecision(2);
     cout.width(8);
     cout<<12.345678;
